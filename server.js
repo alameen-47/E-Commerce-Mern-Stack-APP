@@ -1,6 +1,6 @@
 import express from "express";
 import colors from "colors";
-
+import {fileURLToPath} from "url";
 import dotenv from "dotenv";
 import morgan from "morgan";
 import connectDB from "./config/db.js";
@@ -15,6 +15,10 @@ dotenv.config();
 
 //database  config
 connectDB();
+
+//esmodule fixed
+const __filename =fileURLToPath(import.meta.url);
+const __dirname=path.dirname(__filename);
 
 //rest object
 const app = express();
@@ -54,28 +58,3 @@ app.listen(PORT, () => {
   );
 });
 
-//TRANSLATIONS
-app.get("/translations/:lang", (req, res) => {
-  const lang = req.params.lang;
-
-  //language location
-  const filePath = path.join(
-    __dirname,
-    "translations",
-    `${lang.split("-")[0]}.json`
-  );
-  fs.readFile(filePath, "utf-8", (err, data) => {
-    if (err) {
-      return res.status(404).json({ error: "Translation File is not found!!" });
-    }
-    try {
-      const jsonData = JSON.parse(data);
-      res.set("Cache-control", "public,max-age=3600");
-      res.json(jsonData);
-    } catch (parseError) {
-      res.status(500).json({
-        error: "Error in parsing translation file",
-      });
-    }
-  });
-});
