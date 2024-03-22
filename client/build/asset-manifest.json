@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/static/css/main.e40f32c5.css",
+    "main.js": "/static/js/main.33260552.js",
+    "static/js/511.ffaf7465.chunk.js": "/static/js/511.ffaf7465.chunk.js",
+    "static/media/shoe.jpg": "/static/media/shoe.e6c3888439a271947d04.jpg",
+    "static/media/24-hours-support.gif": "/static/media/24-hours-support.7ae3b0dd8e72dc3202c8.gif",
+    "static/media/cosm.jpg": "/static/media/cosm.0e116e41dceb50e6ed7c.jpg",
+    "static/media/Screenshot 2024-02-15 164700.png": "/static/media/Screenshot 2024-02-15 164700.6248eb1bedd7ab30b6d2.png",
+    "static/media/34781.jpg": "/static/media/34781.e833793675643eb9cfdb.jpg",
+    "static/media/furn.jpg": "/static/media/furn.30ac7046ae52777cbd7b.jpg",
+    "static/media/medal-.gif": "/static/media/medal-.b9dbb7e243aa96624014.gif",
+    "static/media/best-choice.gif": "/static/media/best-choice.c1ec69c2b3fa6ce6fdaf.gif",
+    "static/media/sales.gif": "/static/media/sales.4d4b3a662692d8c2b02c.gif",
+    "static/media/Ideas for Every Taste in an Earthy Modern Living Room.jpeg": "/static/media/Ideas for Every Taste in an Earthy Modern Living Room.7ee9e80d037dce12795a.jpeg",
+    "static/media/elec.jpg": "/static/media/elec.fd5fed2f3ff0794a3e0c.jpg",
+    "static/media/noun-products-2804214.png": "/static/media/noun-products-2804214.24fa9f90f5119f6054c9.png",
+    "static/media/noun-add-product-3848212.png": "/static/media/noun-add-product-3848212.29546b992348d105c88a.png",
+    "static/media/search icon.png": "/static/media/search icon.19ac51b972f0fca9735e.png",
+    "static/media/revicons.eot": "/static/media/revicons.a77de540a38981833f9e.eot",
+    "static/media/revicons.ttf": "/static/media/revicons.57fd05d4ae650374c8de.ttf",
+    "static/media/revicons.woff": "/static/media/revicons.e8746a624ed098489406.woff",
+    "index.html": "/index.html",
+    "static/media/getFetch.cjs": "/static/media/getFetch.40f37ddea2378391108f.cjs",
+    "main.e40f32c5.css.map": "/static/css/main.e40f32c5.css.map",
+    "main.33260552.js.map": "/static/js/main.33260552.js.map",
+    "511.ffaf7465.chunk.js.map": "/static/js/511.ffaf7465.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e40f32c5.css",
+    "static/js/main.33260552.js"
+  ]
+}
